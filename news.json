@@ -1,0 +1,40 @@
+[
+  {
+    "date": "2026-01-18",
+    "tag": "Paper",
+    "venue": "Conference XYZ",
+    "title": "New paper on robust policy learning",
+    "summary": "Evaluation protocols and deployment lessons learned.",
+    "links": [
+      { "label": "Paper", "url": "https://arxiv.org/abs/xxxx.xxxxx" },
+      { "label": "Project", "url": "https://yourlab.github.io/robust-policy" }
+    ]
+  },
+  {
+    "date": "2025-12-05",
+    "tag": "Talk",
+    "venue": "Invited Seminar",
+    "title": "Sim-to-real manipulation in practice",
+    "summary": "Practical notes on training, debugging, and deployment on hardware.",
+    "links": [
+      { "label": "Slides", "url": "#" },
+      { "label": "Video", "url": "#" }
+    ]
+  },
+  {
+    "date": "2025-11-10",
+    "tag": "Lab",
+    "venue": "Update",
+    "title": "Welcome new members and visitors",
+    "summary": "We are expanding projects on dexterous manipulation and reliable deployment.",
+    "links": []
+  },
+  {
+    "date": "2025-10-02",
+    "tag": "Award",
+    "venue": "Congratulations",
+    "title": "Outstanding student award",
+    "summary": "Member Name received an outstanding student award.",
+    "links": [{ "label": "Announcement", "url": "#" }]
+  }
+]

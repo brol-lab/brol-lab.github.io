@@ -601,3 +601,32 @@ img{ max-width:100%; display:block; }
   }
   .site-nav.open{ display:flex; }
 }
+
+/* Publications page: small buttons + narrower typography */
+.btn.small{
+  padding:8px 12px;
+  border-radius:12px;
+  font-size:13px;
+  min-height:36px;
+}
+
+.pub-card{ padding:14px 16px; }
+.pub-title{ margin:10px 0 6px; font-size:18px; }
+.pub-authors{
+  color:var(--muted);
+  font-weight:800;
+  font-size:13px;
+}
+.pub-actions{
+  margin-top:12px;
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+}
+
+.year-label{
+  color:var(--dim);
+  font-weight:950;
+  letter-spacing:0.4px;
+  margin: 0 0 10px;
+}
