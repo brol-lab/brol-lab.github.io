@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>News — brol Lab</title>
+  <meta name="description" content="Latest news and updates from Robot Learning Lab (brol Lab)." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body data-page="news">
+  <a class="skip" href="#content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Home">
+        <span class="brand-badge">brol</span>
+        <span>
+          <strong>Robot Learning Lab</strong>
+          <small>Beijing Zhongguancun Academy</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="site-nav" aria-label="Primary">
+        <a data-nav="home" href="index.html">Home</a>
+        <a data-nav="news" href="news.html">News</a>
+        <a data-nav="people" href="people.html">People</a>
+        <a data-nav="research" href="research.html">Research</a>
+        <a data-nav="publications" href="publications.html">Publications</a>
+        <a data-nav="gallery" href="gallery.html">Gallery</a>
+        <a data-nav="join" href="join.html">Join Us</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content">
+    <section class="hero">
+      <div class="container hero-card">
+        <div class="hero-grid">
+          <div>
+            <div class="kicker"><span class="dot"></span> News</div>
+            <h1>Updates</h1>
+            <p>Announcements, publications, talks, awards, and lab milestones.</p>
+            <div class="pills">
+              <span class="pill">Papers</span>
+              <span class="pill">Talks</span>
+              <span class="pill">Awards</span>
+              <span class="pill">Lab</span>
+            </div>
+          </div>
+
+          <div class="hero-media">
+            <img src="https://images.unsplash.com/photo-1456406644174-8ddd4cd52a06?auto=format&fit=crop&w=1600&q=70" alt="News placeholder">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>All News</h2>
+          <p>Newest first.</p>
+        </div>
+
+        <div class="surface pad">
+          <div class="timeline">
+            <div class="item">
+              <div class="when">Jan 2026</div>
+              <div class="card">
+                <div class="meta-row"><span class="tag">Paper</span><span>Conference XYZ</span></div>
+                <h3>Paper accepted: Robust Policy Learning Under Distribution Shift</h3>
+                <p>Short summary here. Add PDF / code links if available.</p>
+                <div style="margin-top:10px;">
+                  <a class="link" href="#">PDF</a> · <a class="link" href="#">Code</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="when">Dec 2025</div>
+              <div class="card">
+                <div class="meta-row"><span class="tag">Talk</span><span>Invited Seminar</span></div>
+                <h3>Invited talk: Sim-to-real manipulation in practice</h3>
+                <p>Slides and recording will be posted in Gallery.</p>
+                <div style="margin-top:10px;">
+                  <a class="link" href="gallery.html">Go to Gallery →</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="when">Nov 2025</div>
+              <div class="card">
+                <div class="meta-row"><span class="tag">Lab</span><span>Update</span></div>
+                <h3>Welcome new members and visitors</h3>
+                <p>We are expanding projects on dexterous manipulation and reliable deployment.</p>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="when">Oct 2025</div>
+              <div class="card">
+                <div class="meta-row"><span class="tag">Award</span><span>Congratulations</span></div>
+                <h3>Team member won an outstanding student award</h3>
+                <p>Add a short description and photo if desired.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <div style="font-weight:950;">Robot Learning Lab (brol Lab)</div>
+          <div style="color:var(--muted); font-weight:800;">© <span id="year"></span> Beijing Zhongguancun Academy</div>
+        </div>
+        <div style="display:flex; gap:14px; flex-wrap:wrap;">
+          <a href="index.html">Home</a>
+          <a href="people.html">People</a>
+          <a href="research.html">Research</a>
+          <a href="publications.html">Publications</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="join.html">Join Us</a>
+          <a href="index.html#contact">Contact</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
